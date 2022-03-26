@@ -1,1 +1,1 @@
-# SI_2022_lab1_173131
+# Jovan Pockov 173131
