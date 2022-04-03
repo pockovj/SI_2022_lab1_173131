@@ -1,0 +1,77 @@
+4. git clone https://github.com/pockovj/SI_2022_lab1_173131.git (go kloniravme repozitoriumot lokalno na nasiot kompjuter)
+5. Kreirav txt datoteka so ime shopping_list.txt i dodadov 5 slucajni proizvodi i so pomosh na komandite:
+git add . ,gi dodadov proizvodite
+git commit -m "Add 5 items to the shopping list" ,ja napisav porakata
+git push -u origin master ,ja dodadov datotekata vo github.
+6.Vo shopping_list.txt dodadov kolicina na proizvodite i so izvrsuvanje na komandite:
+git add . ,dodadov kolicina na proizvodite odnosno ja updatetirav prethodnata datoteka
+git commit -m "Add quantities to the items." ,ja napisav novata porakata
+git push -u origin master ,ja dodadov datotekata vo github.
+7.Kreirav dve novi granki so pomosh na komandite:
+git branch1
+git branch2
+8.commit db1c18f7b84f737e458f866d42bee6052455f01a (HEAD -> master, origin/master, origin/HEAD, branch2, branch1)
+Author: pockov <pockpvjovan@gmail.com>
+Date:   Sun Apr 3 22:53:35 2022 +0200
+
+    Add quantities to the items.
+
+commit 4c5784211a12654a05559bd0acd37ff942146994
+Author: pockov <pockpvjovan@gmail.com>
+Date:   Sun Apr 3 22:49:04 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 5fb9e587ca0813226b9d46ff91ed5b3c71609af2
+Author: pockovj <100961033+pockovj@users.noreply.github.com>
+9.gi sihronizirav site granki so komandata git push -all.
+10.so komandata git checkout branch1 se prefrlivme na grankata branch1
+11.ja promeniv pettata stavka vo shopping_list.txt i napraviv commit na master so komandite:
+git add .
+git commit -m "Change quantity of item #5" 
+git push origin master 
+12.so komandata git checkout master se vrativ na grankata master
+13.ja promeniv vtorata stavka vo shopping_list.txt i napraviv commit na master so komandite:
+git add .
+git commit -m "Change quantity of item #2" 
+git push origin master
+14.gi sihronizirav grankite so git push -all i mi vrati poraka Everything up-to-date
+15.so git checkout branch2 se preflriv na grankata branch2
+16.go promeniv imeto na stavkata broj 4 vo listata i napraviv commit so slednite komandi:
+git add .
+git commit -m "Modify item #4" 
+git push origin branch2
+17.commit 9a8d6b8aea20bcf37efb6a830e614e5ce91c5aa2 (HEAD -> branch2, origin/branch2)
+Author: pockov <pockpvjovan@gmail.com>
+Date:   Sun Apr 3 23:51:44 2022 +0200
+
+    Modify item #4
+
+commit db1c18f7b84f737e458f866d42bee6052455f01a
+Author: pockov <pockpvjovan@gmail.com>
+Date:   Sun Apr 3 22:53:35 2022 +0200
+
+    Add quantities to the items.
+
+commit 4c5784211a12654a05559bd0acd37ff942146994
+Author: pockov <pockpvjovan@gmail.com>
+18.dodadov 6ta stavka vo shopping_list.txt i napraviv commit
+git add .
+git commit -m "Modify item #4 and add item #6" 
+git push origin branch2
+19. commit d4f684404446ab57dd6f2df884ed280c79918f7a (HEAD -> branch2, origin/branch2)
+Author: pockov <pockpvjovan@gmail.com>
+Date:   Sun Apr 3 23:57:20 2022 +0200
+
+    Modify item #4 and add item #6
+
+commit 9a8d6b8aea20bcf37efb6a830e614e5ce91c5aa2
+Author: pockov <pockpvjovan@gmail.com>
+Date:   Sun Apr 3 23:51:44 2022 +0200
+
+    Modify item #4
+
+commit db1c18f7b84f737e458f866d42bee6052455f01a
+Author: pockov <pockpvjovan@gmail.com>
+20.se prefrliv na grankata master so komandata git checkout master i ja spoiv grankata branch1 kon master so komandata git merge branch1
+21.ja spoiv grankata branch2 kon master so komandata git merge branch2

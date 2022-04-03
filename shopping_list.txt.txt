@@ -1,5 +1,11 @@
 Kosula x 2
 Pantaloni x 10
 Patiki x 4 
+<<<<<<< HEAD
 Jakna x 2
 Dukser x 2
+=======
+Sako x 2
+Dukser x 10
+Casovnik x 1
+>>>>>>> branch2
